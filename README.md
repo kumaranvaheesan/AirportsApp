@@ -1,7 +1,7 @@
 # AirportsApp
 Notes:
 
- This project uses Cocoapods for managing third party libraries such as Alamofire.
+ This project uses Cocoapods for managing third party libraries such as Alamofire, ObjectMapper.
  
  Master Screen displays all the airport names and country fetched from given URL
  
