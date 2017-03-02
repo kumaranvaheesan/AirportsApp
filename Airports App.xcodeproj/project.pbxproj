@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2305124F67BB37EF058274 /* Pods_Airports_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C978AC6754BF416FB24A96 /* Pods_Airports_AppTests.framework */; };
+		42690D051E685A93007A24BC /* MapViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42690D041E685A93007A24BC /* MapViewCell.swift */; };
+		42690D071E685AAA007A24BC /* Airports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42690D061E685AA9007A24BC /* Airports.swift */; };
+		42690D081E685AAA007A24BC /* Airports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42690D061E685AA9007A24BC /* Airports.swift */; };
 		42D7EBAF1E67BCF2003ADDC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7EBAE1E67BCF2003ADDC4 /* AppDelegate.swift */; };
 		42D7EBB11E67BCF3003ADDC4 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7EBB01E67BCF3003ADDC4 /* MasterViewController.swift */; };
 		42D7EBB31E67BCF3003ADDC4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7EBB21E67BCF3003ADDC4 /* DetailViewController.swift */; };
@@ -15,6 +19,10 @@
 		42D7EBBB1E67BCF3003ADDC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D7EBB91E67BCF3003ADDC4 /* LaunchScreen.storyboard */; };
 		42D7EBC61E67BCF4003ADDC4 /* Airports_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7EBC51E67BCF4003ADDC4 /* Airports_AppTests.swift */; };
 		42D7EBD11E67BCF4003ADDC4 /* Airports_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7EBD01E67BCF4003ADDC4 /* Airports_AppUITests.swift */; };
+		42D7EBE11E67C0C0003ADDC4 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7EBE01E67C0C0003ADDC4 /* ApiClient.swift */; };
+		42D7EC261E680C17003ADDC4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D7EC251E680C17003ADDC4 /* MapKit.framework */; };
+		B8E0C413401E078FB97FE5AA /* Pods_Airports_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8732681DC09B549795806F2B /* Pods_Airports_App.framework */; };
+		EEF5589AC24BB112568EEFB6 /* Pods_Airports_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FCFF83AE44F7DC0F4E8530 /* Pods_Airports_AppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		063E668AD6F1AA8A88DD67E3 /* Pods-Airports App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airports App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Airports App/Pods-Airports App.debug.xcconfig"; sourceTree = "<group>"; };
+		08FB45EC4DCFF6FED83D80F5 /* Pods-Airports AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airports AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Airports AppUITests/Pods-Airports AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		251FDEB435B7CABFC43B7195 /* Pods-Airports AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airports AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Airports AppUITests/Pods-Airports AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		42690D041E685A93007A24BC /* MapViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewCell.swift; path = "Custom Cell/MapViewCell.swift"; sourceTree = "<group>"; };
+		42690D061E685AA9007A24BC /* Airports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Airports.swift; path = Model/Airports.swift; sourceTree = "<group>"; };
 		42D7EBAB1E67BCF2003ADDC4 /* Airports App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airports App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D7EBAE1E67BCF2003ADDC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42D7EBB01E67BCF3003ADDC4 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +62,14 @@
 		42D7EBCC1E67BCF4003ADDC4 /* Airports AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Airports AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D7EBD01E67BCF4003ADDC4 /* Airports_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airports_AppUITests.swift; sourceTree = "<group>"; };
 		42D7EBD21E67BCF4003ADDC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D7EBE01E67C0C0003ADDC4 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiClient.swift; path = "Network Manager/ApiClient.swift"; sourceTree = "<group>"; };
+		42D7EC251E680C17003ADDC4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		47FCFF83AE44F7DC0F4E8530 /* Pods_Airports_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Airports_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C02EEDCF5E992DDBC682D11 /* Pods-Airports AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airports AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Airports AppTests/Pods-Airports AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52C978AC6754BF416FB24A96 /* Pods_Airports_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Airports_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7489DFCE88C22EED745B5F95 /* Pods-Airports AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airports AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Airports AppTests/Pods-Airports AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8732681DC09B549795806F2B /* Pods_Airports_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Airports_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D471021E1DA1D1777FF10EFF /* Pods-Airports App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airports App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Airports App/Pods-Airports App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D7EC261E680C17003ADDC4 /* MapKit.framework in Frameworks */,
+				B8E0C413401E078FB97FE5AA /* Pods_Airports_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F2305124F67BB37EF058274 /* Pods_Airports_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF5589AC24BB112568EEFB6 /* Pods_Airports_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42690D031E682FCA007A24BC /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				42690D041E685A93007A24BC /* MapViewCell.swift */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
 		42D7EBA21E67BCF2003ADDC4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +116,8 @@
 				42D7EBC41E67BCF4003ADDC4 /* Airports AppTests */,
 				42D7EBCF1E67BCF4003ADDC4 /* Airports AppUITests */,
 				42D7EBAC1E67BCF2003ADDC4 /* Products */,
+				91B81556A75646E2493FB1AC /* Pods */,
+				624E5FCF1E6BD859BB9E0CD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +134,9 @@
 		42D7EBAD1E67BCF2003ADDC4 /* Airports App */ = {
 			isa = PBXGroup;
 			children = (
+				42690D031E682FCA007A24BC /* Custom Cells */,
+				42D7EBDF1E67BF51003ADDC4 /* Model */,
+				42D7EBDE1E67BF2A003ADDC4 /* Network Manager */,
 				42D7EBAE1E67BCF2003ADDC4 /* AppDelegate.swift */,
 				42D7EBB01E67BCF3003ADDC4 /* MasterViewController.swift */,
 				42D7EBB21E67BCF3003ADDC4 /* DetailViewController.swift */,
@@ -128,6 +166,46 @@
 			path = "Airports AppUITests";
 			sourceTree = "<group>";
 		};
+		42D7EBDE1E67BF2A003ADDC4 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				42D7EBE01E67C0C0003ADDC4 /* ApiClient.swift */,
+			);
+			name = "Network Manager";
+			sourceTree = "<group>";
+		};
+		42D7EBDF1E67BF51003ADDC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42690D061E685AA9007A24BC /* Airports.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		624E5FCF1E6BD859BB9E0CD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42D7EC251E680C17003ADDC4 /* MapKit.framework */,
+				8732681DC09B549795806F2B /* Pods_Airports_App.framework */,
+				52C978AC6754BF416FB24A96 /* Pods_Airports_AppTests.framework */,
+				47FCFF83AE44F7DC0F4E8530 /* Pods_Airports_AppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91B81556A75646E2493FB1AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				063E668AD6F1AA8A88DD67E3 /* Pods-Airports App.debug.xcconfig */,
+				D471021E1DA1D1777FF10EFF /* Pods-Airports App.release.xcconfig */,
+				4C02EEDCF5E992DDBC682D11 /* Pods-Airports AppTests.debug.xcconfig */,
+				7489DFCE88C22EED745B5F95 /* Pods-Airports AppTests.release.xcconfig */,
+				251FDEB435B7CABFC43B7195 /* Pods-Airports AppUITests.debug.xcconfig */,
+				08FB45EC4DCFF6FED83D80F5 /* Pods-Airports AppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42D7EBD51E67BCF4003ADDC4 /* Build configuration list for PBXNativeTarget "Airports App" */;
 			buildPhases = (
+				C527A6BD52A7AE8E71A1D080 /* [CP] Check Pods Manifest.lock */,
 				42D7EBA71E67BCF2003ADDC4 /* Sources */,
 				42D7EBA81E67BCF2003ADDC4 /* Frameworks */,
 				42D7EBA91E67BCF2003ADDC4 /* Resources */,
+				9DD419A7003DA60ADAF64B1C /* [CP] Embed Pods Frameworks */,
+				AA82295449B850F78AE4C692 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42D7EBD81E67BCF4003ADDC4 /* Build configuration list for PBXNativeTarget "Airports AppTests" */;
 			buildPhases = (
+				AB59BB34FCD4AE5F0FC0B5A0 /* [CP] Check Pods Manifest.lock */,
 				42D7EBBD1E67BCF4003ADDC4 /* Sources */,
 				42D7EBBE1E67BCF4003ADDC4 /* Frameworks */,
 				42D7EBBF1E67BCF4003ADDC4 /* Resources */,
+				FFA6E3B1A34A6365191F1A63 /* [CP] Embed Pods Frameworks */,
+				2C9F24DD107B57EBB148A539 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42D7EBDB1E67BCF4003ADDC4 /* Build configuration list for PBXNativeTarget "Airports AppUITests" */;
 			buildPhases = (
+				4443F4C73BEF095380C0235B /* [CP] Check Pods Manifest.lock */,
 				42D7EBC81E67BCF4003ADDC4 /* Sources */,
 				42D7EBC91E67BCF4003ADDC4 /* Frameworks */,
 				42D7EBCA1E67BCF4003ADDC4 /* Resources */,
+				622C4FD1771EAA5A71141A5D /* [CP] Embed Pods Frameworks */,
+				EFB6B2227C67F6B7D6A47A7C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +347,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C9F24DD107B57EBB148A539 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airports AppTests/Pods-Airports AppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4443F4C73BEF095380C0235B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		622C4FD1771EAA5A71141A5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airports AppUITests/Pods-Airports AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DD419A7003DA60ADAF64B1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airports App/Pods-Airports App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA82295449B850F78AE4C692 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airports App/Pods-Airports App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB59BB34FCD4AE5F0FC0B5A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C527A6BD52A7AE8E71A1D080 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFB6B2227C67F6B7D6A47A7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airports AppUITests/Pods-Airports AppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA6E3B1A34A6365191F1A63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airports AppTests/Pods-Airports AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42D7EBA71E67BCF2003ADDC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,7 +492,10 @@
 			files = (
 				42D7EBB31E67BCF3003ADDC4 /* DetailViewController.swift in Sources */,
 				42D7EBB11E67BCF3003ADDC4 /* MasterViewController.swift in Sources */,
+				42690D051E685A93007A24BC /* MapViewCell.swift in Sources */,
 				42D7EBAF1E67BCF2003ADDC4 /* AppDelegate.swift in Sources */,
+				42D7EBE11E67C0C0003ADDC4 /* ApiClient.swift in Sources */,
+				42690D071E685AAA007A24BC /* Airports.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +504,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42D7EBC61E67BCF4003ADDC4 /* Airports_AppTests.swift in Sources */,
+				42690D081E685AAA007A24BC /* Airports.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +646,7 @@
 		};
 		42D7EBD61E67BCF4003ADDC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 063E668AD6F1AA8A88DD67E3 /* Pods-Airports App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NLL9CV7DDM;
@@ -430,6 +660,7 @@
 		};
 		42D7EBD71E67BCF4003ADDC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D471021E1DA1D1777FF10EFF /* Pods-Airports App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NLL9CV7DDM;
@@ -443,6 +674,7 @@
 		};
 		42D7EBD91E67BCF4003ADDC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C02EEDCF5E992DDBC682D11 /* Pods-Airports AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +690,7 @@
 		};
 		42D7EBDA1E67BCF4003ADDC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7489DFCE88C22EED745B5F95 /* Pods-Airports AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +706,7 @@
 		};
 		42D7EBDC1E67BCF4003ADDC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251FDEB435B7CABFC43B7195 /* Pods-Airports AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = NLL9CV7DDM;
@@ -487,6 +721,7 @@
 		};
 		42D7EBDD1E67BCF4003ADDC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08FB45EC4DCFF6FED83D80F5 /* Pods-Airports AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = NLL9CV7DDM;
@@ -518,6 +753,7 @@
 				42D7EBD71E67BCF4003ADDC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42D7EBD81E67BCF4003ADDC4 /* Build configuration list for PBXNativeTarget "Airports AppTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +762,7 @@
 				42D7EBDA1E67BCF4003ADDC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42D7EBDB1E67BCF4003ADDC4 /* Build configuration list for PBXNativeTarget "Airports AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +771,7 @@
 				42D7EBDD1E67BCF4003ADDC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
