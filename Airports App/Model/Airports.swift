@@ -55,16 +55,20 @@ class Airport: Mappable {
     func validateLatitude(latitude: Double) -> Bool
     {
         if -90 ... +90 ~= latitude{
-            return true}
+            return true
+        }
         else{
-            return false}
+            return false
+        }
     }
     
     func validateLongitude(longitude: Double) -> Bool
     {
         if 0 ... +180 ~= longitude{
-            return true}
+            return true
+        }
         else{
-            return false}
+            return false
+        }
     }
 }
